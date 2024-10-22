@@ -1,0 +1,60 @@
+# Ignore folders called 'test', 'data' and their contents
+test/
+data/
+
+# Ignore .vs folder (Visual Studio specific)
+.vs/
+
+# Ignore Visual Studio Code specific settings and folders
+.vscode/
+*.code-workspace
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore common virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignore system generated files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled Python files and temporary files
+*.pyc
+*.pyo
+
+# Ignore config files that could contain sensitive data
+config.*
+*.cfg
+*.ini
+*.env
+
+# Ignore common package manager lock files (if not needed in your project)
+Pipfile.lock
+poetry.lock
+yarn.lock
+package-lock.json
+node_modules/
+
+# Ignore macOS specific hidden file
+*.DS_Store
+
+# Ignore Windows specific hidden file
+desktop.ini
+
+# Ignore any IDE specific folders (JetBrains, PyCharm, IntelliJ, etc.)
+.idea/
+*.iml
